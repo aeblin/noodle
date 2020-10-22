@@ -32,5 +32,8 @@
     "rosin": "^1.1.0",
     "srraf": "^3.2.1",
     "tinkerbell": "^0.2.0"
-  }
+  },
+  "keywords": [
+    "slider"
+  ]
 }
