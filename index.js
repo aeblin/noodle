@@ -170,8 +170,6 @@ export default function noodle (slider, opts = {}) {
   }
 
   function focusActiveSlide () {
-
-
     for (let i = 0; i < track.children.length; i++) {
       if (i === index) {
         track.children[i].setAttribute('tabindex', '0')
@@ -190,6 +188,11 @@ export default function noodle (slider, opts = {}) {
   function setActiveSlide () {
     for (let i = 0; i < track.children.length; i++) {
       track.children[i].classList[i === index ? 'add' : 'remove']('is-selected')
+      if (i === index) {
+        track.children[i].setAttribute('tabindex', '0')
+      } else {
+        track.children[i].setAttribute('tabindex', '-1')
+      }
     }
 
     if (opts.setHeight && track.children[index]) slider.style.height = track.children[index].clientHeight + 'px'
