@@ -1,6 +1,6 @@
 {
-  "name": "noodle",
-  "version": "1.8.2",
+  "name": "bucatini",
+  "version": "1.8.4",
   "description": "Tiny tweeing library that sparkles.",
   "source": "index.js",
   "module": "dist/noodle.es.js",
@@ -12,8 +12,7 @@
   "scripts": {
     "build": "microbundle build",
     "watch": "microbundle watch --compress false --external none",
-    "debug": "microbundle build --compress false --external none",
-    "publish": "npm publish"
+    "debug": "microbundle build --compress false --external none"
   },
   "repository": {
     "type": "git",

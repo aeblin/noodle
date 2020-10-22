@@ -1,6 +1,10 @@
 # noodle
 Tiny flickable slideshow. **1.8kb gzipped.**
 
+# A note!
+This is just © [Eric Bailey](https://estrattonbailey.com) with a very slight
+tweak to tabindex values for accessibility purposes.
+
 # Usage
 
 ### Markup

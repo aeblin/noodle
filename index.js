@@ -170,12 +170,14 @@ export default function noodle (slider, opts = {}) {
   }
 
   function focusActiveSlide () {
-    if (!opts.a11y) return
+
 
     for (let i = 0; i < track.children.length; i++) {
       if (i === index) {
         track.children[i].setAttribute('tabindex', '0')
-        track.children[i].focus()
+        if (opts.a11y) {
+          track.children[i].focus()
+        }
       } else {
         track.children[i].setAttribute('tabindex', '-1')
       }
