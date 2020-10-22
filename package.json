@@ -1,6 +1,6 @@
 {
   "name": "noodle",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Tiny tweeing library that sparkles.",
   "source": "index.js",
   "module": "dist/noodle.es.js",
@@ -17,20 +17,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/estrattonbailey/noodle.git"
+    "url": "git+ssh://git@github.com/aeblin/noodle.git"
   },
   "author": "estrattonbailey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/estrattonbailey/noodle/issues"
+    "url": "https://github.com/aeblin/noodle/issues"
   },
   "homepage": "https://github.com/estrattonbailey/noodle#readme",
   "devDependencies": {
-    "microbundle": "^0.11.0"
+    "microbundle": "^0.12.4"
   },
   "dependencies": {
     "rosin": "^1.1.0",
-    "srraf": "^3.1.1",
+    "srraf": "^3.2.1",
     "tinkerbell": "^0.2.0"
   }
 }
