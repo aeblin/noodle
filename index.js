@@ -75,7 +75,7 @@ export default function noodle (slider, opts = {}) {
     for (let i = slider.children.length - 1; i > -1; i--) {
       const slide = slider.children[i]
 
-      slide.setAttribute('tabindex', '1')
+      slide.setAttribute('tabindex', '-1')
 
       track.insertBefore(slide, track.children[0])
 
@@ -177,7 +177,7 @@ export default function noodle (slider, opts = {}) {
         track.children[i].setAttribute('tabindex', '0')
         track.children[i].focus()
       } else {
-        track.children[i].setAttribute('tabindex', '1')
+        track.children[i].setAttribute('tabindex', '-1')
       }
     }
   }
@@ -421,6 +421,7 @@ export default function noodle (slider, opts = {}) {
     on,
     resize,
     select,
+    slidesCount,
     init () {
       init()
       destroyed = false
