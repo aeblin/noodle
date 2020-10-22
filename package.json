@@ -1,6 +1,6 @@
 {
   "name": "bucatini",
-  "version": "1.8.5",
+  "version": "1.8.5.1",
   "description": "Tiny tweeing library that sparkles.",
   "source": "index.js",
   "module": "dist/noodle.es.js",

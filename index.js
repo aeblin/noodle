@@ -189,6 +189,7 @@ export default function noodle (slider, opts = {}) {
     for (let i = 0; i < track.children.length; i++) {
       track.children[i].classList[i === index ? 'add' : 'remove']('is-selected')
       if (i === index) {
+        console.log(`Hi this is Bucatini ${track.children[i]}`);
         track.children[i].setAttribute('tabindex', '0')
       } else {
         track.children[i].setAttribute('tabindex', '-1')
